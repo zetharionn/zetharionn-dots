@@ -1,0 +1,103 @@
+{
+	// THEME & ICONS & FONT
+	"workbench.colorTheme": "Catppuccin Macchiato",
+	"workbench.iconTheme": "catppuccin-macchiato",
+	"editor.fontSize": 14,
+	"editor.fontWeight": "normal",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.inlayHints.fontFamily": "JetBrains Mono",
+	"chat.editor.fontFamily": "JetBrains Mono",
+	"editor.codeLensFontFamily": "JetBrains Mono",
+	"debug.console.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+
+	// EDITOR
+	"editor.tabSize": 2,
+	"editor.folding": false,
+	"editor.smoothScrolling": true,
+	"editor.scrollBeyondLastLine": false,
+	"editor.minimap.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.insertSpaces": false,
+	"editor.suggestSelection": "first",
+	"editor.quickSuggestionsDelay": 0,
+	"editor.linkedEditing": true,
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	// SCROLLBARS
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	// WRAPPING
+	"editor.wordWrap": "bounded",
+	"editor.wordWrapColumn": 80,
+	"editor.wrappingIndent": "same",
+	//CURSOR
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	// FORMATTER
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+
+	// WORKBENCH
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.enablePreview": false,
+
+	// WINDOW
+	"window.openFilesInNewWindow": "off",
+	"window.titleBarStyle": "custom",
+	"window.dialogStyle": "custom",
+	"window.density.editorTabHeight": "compact",
+	"window.commandCenter": false,
+
+	// EXPLORER
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+
+	// TERMINAL
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": true,
+
+	// LANGUAGE
+	"typescript.autoClosingTags": true,
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.format.semicolons": "remove",
+	"javascript.autoClosingTags": true,
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.format.semicolons": "remove",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	// EXTENSIONS
+	"emmet.showSuggestionsAsSnippets": true,
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.untrackedChanges": "separate",
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.semi": false,
+	"prettier.endOfLine": "auto",
+	"prettier.bracketSpacing": true,
+	"prettier.bracketSameLine": true,
+	"prettier.proseWrap": "never",
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.status.idle.timeout": 900,
+	"vscord.status.problems.enabled": false,
+	"reactSnippets.settings.importReactOnTop": false,
+
+	// OTHER
+	"security.workspace.trust.untrustedFiles": "open",
+	"telemetry.telemetryLevel": "off",
+	"editor.experimental.treeSitterTelemetry": false,
+	"gitlens.telemetry.enabled": false,
+	"breadcrumbs.enabled": false
+}
