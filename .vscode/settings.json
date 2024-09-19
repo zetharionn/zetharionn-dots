@@ -40,6 +40,7 @@
 
 	// WORKBENCH
 	"workbench.sideBar.location": "right",
+	"workbench.activityBar.location": "bottom",
 	"workbench.startupEditor": "none",
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.editor.closeOnFileDelete": true,
@@ -52,6 +53,7 @@
 	"window.dialogStyle": "custom",
 	"window.density.editorTabHeight": "compact",
 	"window.commandCenter": false,
+	"window.customTitleBarVisibility": "auto",
 
 	// EXPLORER
 	"explorer.confirmDelete": false,
@@ -95,9 +97,9 @@
 	"reactSnippets.settings.importReactOnTop": false,
 
 	// OTHER
-	"security.workspace.trust.untrustedFiles": "open",
 	"telemetry.telemetryLevel": "off",
 	"editor.experimental.treeSitterTelemetry": false,
+	"security.workspace.trust.untrustedFiles": "open",
 	"gitlens.telemetry.enabled": false,
 	"breadcrumbs.enabled": false
 }
