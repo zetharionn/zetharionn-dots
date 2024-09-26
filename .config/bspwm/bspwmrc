@@ -33,11 +33,10 @@ setxkbmap -option grp:alt_shift_toggle us,ru
 xsetroot -cursor_name left_ptr
 
 # AUTOSTART
-killall -w sxhkd picom feh polybar dunst spoofdpi
+killall -w sxhkd picom feh polybar dunst
 sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
 picom -b --config $HOME/.config/picom/picom.conf &
 feh --bg-fill ~/Wallpapers/Wallpaper_0.png
 polybar main -c $HOME/.config/polybar/config.ini &
 polybar second -c $HOME/.config/polybar/config.ini &
 dunst -config $HOME/.config/dunst/dunstrc &
-spoofdpi &
