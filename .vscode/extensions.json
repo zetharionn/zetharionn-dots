@@ -1,42 +1,49 @@
 {
 	"recommendations": [
+		// THEME & ICONS
+		"miguelsolorio.min-theme",
+		"miguelsolorio.symbols",
+		"miguelsolorio.fluent-icons",
+
+		// LANGUAGE & LIBRARIES
 		"fractalbrew.backticks",
-		"catppuccin.catppuccin-vsc-pack",
-		"Catppuccin.catppuccin-vsc",
-		"Catppuccin.catppuccin-vsc-icons",
-		"streetsidesoftware.code-spell-checker",
-		"naumovs.color-highlight",
-		"denoland.vscode-deno",
-		"fill-labs.dependi",
-		"LeonardSSH.vscord",
-		"ms-azuretools.vscode-docker",
-		"editorconfig.editor",
-		"IronGeek.vscode-env",
 		"dsznajder.es7-react-js-snippets",
-		"dbaeumer.vscode-eslint",
+		"orta.vscode-jest",
+		"bradlc.vscode-tailwindcss",
+		"vitest.explorer",
+
+		// GIT & GITHUB
+		"eamodio.gitlens",
 		"github.vscode-github-actions",
 		"github.vscode-pull-request-github",
-		"eamodio.gitlens",
+
+		// INTELLISENSE & INTELLICODE
 		"VisualStudioExptTeam.vscodeintellicode",
 		"visualstudioexptteam.intellicode-api-usage-examples",
 		"VisualStudioExptTeam.vscodeintellicode-completions",
-		"orta.vscode-jest",
 		"christian-kohler.npm-intellisense",
 		"christian-kohler.path-intellisense",
+
+		// FORMATTERS
+		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
 		"rvest.vs-code-prettier-eslint",
-		"Prisma.prisma",
-		"streetsidesoftware.code-spell-checker-russian",
-		"1YiB.rust-bundle",
-		"dustypomerleau.rust-syntax",
-		"rust-lang.rust-analyzer",
-		"gencer.html-slim-scss-css-class-completion",
-		"sibiraj-s.vscode-scss-formatter",
+		"editorconfig.editor",
 		"mrmlnc.vscode-scss",
+		"sibiraj-s.vscode-scss-formatter",
+		"gencer.html-slim-scss-css-class-completion",
 		"stylelint.vscode-stylelint",
+
+		// SOCIAL
+		"WakaTime.vscode-wakatime",
+		"LeonardSSH.vscord",
+
+		// MISC
 		"jock.svg",
-		"bradlc.vscode-tailwindcss",
-		"vitest.explorer",
-		"WakaTime.vscode-wakatime"
+		"naumovs.color-highlight",
+		"streetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker-russian",
+		"ms-azuretools.vscode-docker",
+		"IronGeek.vscode-env"
 	]
 }
