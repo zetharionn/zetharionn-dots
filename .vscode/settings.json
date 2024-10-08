@@ -1,15 +1,15 @@
 {
-	// THEME & ICONS & FONT
-	"workbench.colorTheme": "Catppuccin Macchiato",
-	"workbench.iconTheme": "catppuccin-macchiato",
-	"editor.fontSize": 14,
-	"editor.fontWeight": "normal",
+	// THEME & ICONS & FONTS
+	"workbench.colorTheme": "Min Dark",
+	"workbench.iconTheme": "symbols",
+	"workbench.productIconTheme": "fluent-icons",
 	"editor.fontFamily": "JetBrains Mono",
 	"editor.inlayHints.fontFamily": "JetBrains Mono",
 	"chat.editor.fontFamily": "JetBrains Mono",
 	"editor.codeLensFontFamily": "JetBrains Mono",
 	"debug.console.fontFamily": "JetBrains Mono",
 	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
 
 	// EDITOR
 	"editor.tabSize": 2,
@@ -30,12 +30,12 @@
 	"editor.wordWrap": "bounded",
 	"editor.wordWrapColumn": 80,
 	"editor.wrappingIndent": "same",
-	//CURSOR
+	// CURSOR
 	"editor.cursorBlinking": "expand",
 	"editor.cursorStyle": "line-thin",
 	"editor.cursorSmoothCaretAnimation": "explicit",
 	// FORMATTER
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.defaultFormatter": "biomejs.biome",
 	"editor.formatOnSave": true,
 
 	// WORKBENCH
@@ -46,6 +46,7 @@
 	"workbench.editor.closeOnFileDelete": true,
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.editor.enablePreview": false,
+	"workbench.list.smoothScrolling": true,
 
 	// WINDOW
 	"window.openFilesInNewWindow": "off",
@@ -65,22 +66,25 @@
 	"terminal.integrated.cursorBlinking": true,
 
 	// LANGUAGE
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	// TYPESCRIPT
 	"typescript.autoClosingTags": true,
 	"typescript.preferences.quoteStyle": "single",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.format.semicolons": "remove",
+	// JAVASCRIPT
 	"javascript.autoClosingTags": true,
 	"javascript.preferences.quoteStyle": "single",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"javascript.format.semicolons": "remove",
-	"js/ts.implicitProjectConfig.experimentalDecorators": true,
 
 	// EXTENSIONS
-	"emmet.showSuggestionsAsSnippets": true,
+	// GIT
 	"git.autofetch": true,
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
 	"git.untrackedChanges": "separate",
+	// PRETTIER
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 2,
 	"prettier.singleQuote": true,
@@ -91,15 +95,18 @@
 	"prettier.bracketSpacing": true,
 	"prettier.bracketSameLine": true,
 	"prettier.proseWrap": "never",
+	// VSCORD
 	"vscord.app.name": "Visual Studio Code",
 	"vscord.status.idle.timeout": 900,
 	"vscord.status.problems.enabled": false,
+	// OTHER
+	"emmet.showSuggestionsAsSnippets": true,
+	"gitlens.telemetry.enabled": false,
 	"reactSnippets.settings.importReactOnTop": false,
 
-	// OTHER
+	// MISC
 	"telemetry.telemetryLevel": "off",
 	"editor.experimental.treeSitterTelemetry": false,
 	"security.workspace.trust.untrustedFiles": "open",
-	"gitlens.telemetry.enabled": false,
 	"breadcrumbs.enabled": false
 }
