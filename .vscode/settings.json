@@ -95,10 +95,6 @@
 	"prettier.bracketSpacing": true,
 	"prettier.bracketSameLine": true,
 	"prettier.proseWrap": "never",
-	// VSCORD
-	"vscord.app.name": "Visual Studio Code",
-	"vscord.status.idle.timeout": 900,
-	"vscord.status.problems.enabled": false,
 	// OTHER
 	"emmet.showSuggestionsAsSnippets": true,
 	"gitlens.telemetry.enabled": false,
@@ -108,5 +104,7 @@
 	"telemetry.telemetryLevel": "off",
 	"editor.experimental.treeSitterTelemetry": false,
 	"security.workspace.trust.untrustedFiles": "open",
-	"breadcrumbs.enabled": false
+	"breadcrumbs.enabled": false,
+	"githubPullRequests.createOnPublishBranch": "never",
+	"svg.preview.mode": "svg"
 }
